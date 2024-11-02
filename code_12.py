@@ -32,9 +32,8 @@ def get_fibonacci_number_sequence(number):
 
         number_sequence.append(current)
 
-    return number_sequence
-    
+    return number_sequence 
     
 if __name__ == "__main__":
     print(get_fibonacci_number(2))
-    print(get_fibonacci_number_sequence(7))
+    print(get_fibonacci_number_sequence(5))
