@@ -7,7 +7,7 @@ def get_fibonacci_number(position):
     previous_a = 0
     previous_b = 1
 
-    for x in range(1,position+1):
+    for x in range(2,position+1):
         current_fibo_number = previous_a + previous_b
         previous_a = previous_b
         previous_b = current_fibo_number
@@ -25,7 +25,7 @@ def get_fibonacci_number_sequence(number):
 
     number_sequence = [0,1]
 
-    for i in range(1,number+1):
+    for i in range(2,number+1):
         current = previous_x + previous_y
         previous_x = previous_y
         previous_y = current
@@ -36,4 +36,4 @@ def get_fibonacci_number_sequence(number):
     
 if __name__ == "__main__":
     print(get_fibonacci_number(2))
-    print(get_fibonacci_number_sequence(5))
+    print(get_fibonacci_number_sequence(10))
