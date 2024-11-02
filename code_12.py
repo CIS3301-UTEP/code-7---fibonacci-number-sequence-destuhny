@@ -12,7 +12,7 @@ def get_fibonacci_number(position):
         previous_a = previous_b
         previous_b = current_fibo_number
 
-        return previous_b
+    return previous_b
 
 def get_fibonacci_number_sequence(number):
     if number == 0:
@@ -32,9 +32,9 @@ def get_fibonacci_number_sequence(number):
 
         number_sequence.append(current)
 
-        return number_sequence
+    return number_sequence
     
     
 if __name__ == "__main__":
     print(get_fibonacci_number(2))
-    print(get_fibonacci_number_sequence(5))
+    print(get_fibonacci_number_sequence(7))
